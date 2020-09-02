@@ -4,20 +4,29 @@
 
 .body {
   margin: 10px;
+  display: flex;
+  justify-content: center;
+  border-spacing: 10px;
+}
+
+.content {
+  border: 2px solid blueviolet;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   background-color: palegoldenrod;
   border: 2px solid blueviolet;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 6px;
 }
 
-.Banner {
-  display: flex;
-  justify-content: center;
+.nav > div {
+  color: crimson;
+  border: 1px;
 }

@@ -1,0 +1,116 @@
+{
+  "Catergories": [
+    {
+      "id": 1,
+      "genre": "1st-person",
+      "games": [
+        "Far Cry 5",
+        " Far Cry 4",
+        "Far Cry 3",
+        "COD: Black ops",
+        "Battlefield 3",
+        "COD: Moderm Warfare 3",
+        "COD: Ghosts",
+        "Arma 3"
+      ]
+    },
+    {
+      "id": 2,
+      "genre": "3rd-person",
+      "games": [
+        "Mad Max",
+        "Mafia 2",
+        "Assassin's Creed: Black Flag",
+        "Tomb Raider",
+        "Arma 3",
+        "GTA 5",
+        "GTA San Andreas",
+        "Assassin's Creed: Origins"
+      ]
+    },
+    {
+      "id": 3,
+      "genre": "Adventure",
+      "games": [
+        "Far Cry 5",
+        "Human: Fall Flat",
+        "Assassin's Creed: Unity",
+        "Resident Evil 7",
+        "Minecraft",
+        "A Way Out",
+        "Crash Bandicoot",
+        "Jurassic Park"
+      ]
+    },
+    {
+      "id": 4,
+      "genre": "Action",
+      "games": [
+        "Far Cry 5",
+        " Far Cry 4",
+        "Far Cry 3",
+        "Mafia 2",
+        "Watch Dogs",
+        "Watch Dogs 2",
+        "Mad Max",
+        "Assassin's Creed:Rogue"
+      ]
+    },
+    {
+      "id": 5,
+      "genre": "Horror",
+      "games": [
+        "Resident Evil 2",
+        "Hello",
+        "Resident Evil 7",
+        "Hello Neighbour",
+        "Outlast",
+        "The Evil Within",
+        "The Walking Dead",
+        "Alien Isolation"
+      ]
+    },
+    {
+      "id": 6,
+      "genre": "Sport",
+      "games": [
+        "PES 2017",
+        "FIFA 15",
+        "Pro Soccer",
+        "Tekken 7",
+        "FIFA 18",
+        "Poker",
+        "Blood Bowl",
+        "NHL 09"
+      ]
+    },
+    {
+      "id": 7,
+      "genre": "Racing",
+      "games": [
+        "Need for Speed: Most Wanted",
+        "Speeping Dogs: Definitive Edition",
+        "Mad Max",
+        "Need For Spped: Payback",
+        "Rocker League",
+        "Need For Speed: Pursuit",
+        "Need For Speed: Rivals",
+        "GRID 2"
+      ]
+    },
+    {
+      "id": 8,
+      "genre": "RPG",
+      "games": [
+        "The Witcher 3",
+        "Mass Effect 3",
+        "Fallout 4",
+        "Fallout 3",
+        "Fallout 76",
+        "The Elder Scrolls V: Skyrim",
+        "Dark Souls",
+        "Middle Earth"
+      ]
+    }
+  ]
+}

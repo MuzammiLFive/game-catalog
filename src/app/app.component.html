@@ -1,19 +1,14 @@
 <div>
   <div class="nav">
-    <div>Home</div>
-    <div>Categories</div>
-    <div>About</div>
-  </div>
-
-  <router-outlet></router-outlet>
-  <!-- <div class="content">
-    <div class="Banner">
-      <img src="assets/Banner.png" alt="Banner" />
-    </div>
+    <div><a routerLink="/home" routerLinkActive="active">Home</a></div>
     <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. A porro
-      blanditiis ad ratione et molestias, eaque quibusdam eligendi iure illum
-      voluptatem modi quos hic ipsam quod pariatur cum. Voluptatem, quas!
+      <a routerLink="/categories" routerLinkActive="active">Categories</a>
     </div>
-  </div> -->
+    <div><a routerLink="/about" routerLinkActive="active">About</a></div>
+  </div>
+  <hr />
+
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
 </div>

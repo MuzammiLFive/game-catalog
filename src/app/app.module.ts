@@ -6,17 +6,13 @@ import { AppComponent } from './app.component';
 import { CategoriesComponent } from './categories/categories.component';
 import { HomeComponent } from './home/home.component';
 
+import { GamesService } from './shared/games.service';
+import { AboutComponent } from './about/about.component';
+
 @NgModule({
-  declarations: [
-    AppComponent,
-    CategoriesComponent,
-    HomeComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  declarations: [AppComponent, CategoriesComponent, HomeComponent, AboutComponent],
+  imports: [BrowserModule, AppRoutingModule],
+  providers: [GamesService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
