@@ -1,1 +1,19 @@
-<p>categories works!</p>
+<div class="container">
+  <div class="col-1">
+    <div
+      *ngFor="let item of gamesList"
+      class="card"
+      (click)="selectedGenre(item)"
+    >
+      {{ item.genre }}
+    </div>
+  </div>
+  <div class="col-2">
+    <div class="card" *ngFor="let game of games">
+      {{ game }}
+    </div>
+  </div>
+  <div class="row-2">
+    <div *ngIf="games" class="unset" (click)="Unset()">Unset</div>
+  </div>
+</div>
